@@ -12,13 +12,14 @@
         "litecoin",
         "scrypt"
     ],
-    "homepage": "https://github.com/cryptosharks131/BootNOMP",
+    "homepage": "https://github.com/cryptopool-builders/NiceNOMP",
     "bugs": {
-        "url": "https://github.com/cryptosharks131/BootNOMP/issues"
+        "url": "https://github.com/cryptopool-builders/NiceNOMP/issues"
     },
     "license": "GPL-2.0",
-    "author": "Matthew Little",
+    "author": "cryptopool.builders",
     "contributors": [
+        "Matthew Little",
         "devnulled",
         "foxer666",
         "vekexasia",
@@ -31,7 +32,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/cryptosharks131/BootNOMP.git"
+        "url": "https://github.com/cryptopool-builders/NiceNOMP.git"
     },
     "dependencies": {
         "async": "^2.5.0",
@@ -51,7 +52,7 @@
         "redis": "^2.7.1",
         "request": "^2.83.0",
         "sma": "^0.1.0",
-        "stratum-pool": "git://github.com/cryptosharks131/node-stratum-pool.git",
+        "stratum-pool": "git://github.com/cryptopool-builders/node-stratum-pool.git",
         "winston": "3.0.0-rc2",
         "winston-daily-rotate-file": "^3.0.0"
     },
