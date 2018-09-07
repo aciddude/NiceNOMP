@@ -1,3 +1,7 @@
+### Welcome to the cryptopool.builders github! 
+### This fork of NOMP is designed to work with our Ultimate Crypto-Server Installer program. 
+Trying to install this on a server not built by our installer will cause headaches, frustrations, and screaming loudly at your monitor. 
+
 ## Helping give NOMP new life! With some style.
 #### If you want to help contribute, please look at the original [project](https://github.com/foxer666/node-open-mining-portal) first!
 
@@ -17,7 +21,7 @@ Current version: v1.1.3
 -------
 ### Install
 ```
-git clone https://github.com/cryptosharks131/node-open-mining-portal.git pool
+git clone https://github.com/cryptopool-builders/NiceNOMP.git pool
 cd pool
 npm install
 node init.js
@@ -27,17 +31,6 @@ node init.js
 * Node 8.x.x or higher
 * Coin daemon
 * Redis Server
-
-### Run in Docker
-_I Do Not Use Docker, So I Will Not Be Maintaining This Feature_
-1) Correct configs appropriately to your environment in docker directory
-2) ```cd docker```
-3) ```docker build -t nomp .```
-4) ```docker run -d --name nomp -v $(pwd)/config:/opt/config nomp ```
-
-You will need to expose some ports to make it accessible from outside. You can achieve this by adding option -p HOST_PORT:CONTAINER_PORT in 4th step
-
-You can see the logs of the server with ```docker logs -f nomp```, or jump into container with ```docker exec -it nomp```.
 
 -------
 ### Hashing algorithms
