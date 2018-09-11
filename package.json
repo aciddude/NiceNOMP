@@ -36,12 +36,12 @@
     },
     "dependencies": {
         "async": "^2.5.0",
-        "bignumber.js": "^6.0.0",
+        "bignumber.js": "^7.2.1",
         "body-parser": "^1.18.2",
         "chartjs-plugin-zoom": "^0.6.3",
         "colors": "^1.1.2",
         "compression": "^1.7.1",
-        "dateformat": "^2.2.0",
+        "dateformat": "^3.0.3",
         "dot": "^1.1.2",
         "exponential-moving-average": "^1.0.0",
         "express": "^4.16.1",
@@ -53,7 +53,7 @@
         "request": "^2.83.0",
         "sma": "^0.1.0",
         "stratum-pool": "git://github.com/cryptopool-builders/node-stratum-pool.git",
-        "winston": "3.0.0-rc2",
+        "winston": "3.1.0",
         "winston-daily-rotate-file": "^3.0.0"
     },
     "engines": {
