@@ -1,9 +1,9 @@
 {
-    "name": "name",
-    "symbol": "symbol",
-    "algorithm": "algo",
+    "name": "coinname",
+    "symbol": "coinsymbol",
+    "algorithm": "coinalgo",
     "explorerGetBlockJSON": "getblockapi",
     "explorerGetBlock": "blockexplorer",
     "explorerGetTX": "getblocktx",
-    "blockTime": seconds
+    "blockTime": cointime
 }
