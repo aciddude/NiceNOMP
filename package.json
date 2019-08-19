@@ -12,9 +12,9 @@
         "litecoin",
         "scrypt"
     ],
-    "homepage": "https://github.com/cryptopool-builders/NiceNOMP",
+    "homepage": "https://github.com/aciddude/NiceNOMP",
     "bugs": {
-        "url": "https://github.com/cryptopool-builders/NiceNOMP/issues"
+        "url": "https://github.com/aciddude/NiceNOMP/issues"
     },
     "license": "GPL-2.0",
     "author": "cryptopool.builders",
@@ -32,7 +32,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/cryptopool-builders/NiceNOMP.git"
+        "url": "https://github.com/aciddude/NiceNOMP.git"
     },
     "dependencies": {
         "async": "^2.5.0",
@@ -52,7 +52,7 @@
         "redis": "^2.7.1",
         "request": "^2.83.0",
         "sma": "^0.1.0",
-        "stratum-pool": "git://github.com/cryptopool-builders/node-stratum-pool.git",
+        "stratum-pool": "git://github.com/aciddude/node-stratum-pool.git",
         "winston": "3.0.0-rc2",
         "winston-daily-rotate-file": "^3.0.0"
     },
