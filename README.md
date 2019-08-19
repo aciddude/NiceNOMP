@@ -21,7 +21,7 @@ Current version: v1.1.3
 -------
 ### Install
 ```
-git clone https://github.com/cryptopool-builders/NiceNOMP.git pool
+git clone https://github.com/aciddude/NiceNOMP.git pool
 cd pool
 npm install
 node init.js
